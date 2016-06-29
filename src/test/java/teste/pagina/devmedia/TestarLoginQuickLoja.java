@@ -47,7 +47,7 @@ public class TestarLoginQuickLoja {
 	}
 	// classe de  teste que tem por finalidade de testar o fluxo feliz da aplicação.
 	@Test
-	public void testLogincorreto() {
+	public void testLoginCorreto() {
 		// preenche os campos Login e senha
 		WebElement element = driver.findElement(By.id("usuariologin"));
 		element.sendKeys("teste");
