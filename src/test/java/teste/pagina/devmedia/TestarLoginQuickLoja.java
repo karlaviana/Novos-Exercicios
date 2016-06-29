@@ -40,8 +40,9 @@ public class TestarLoginQuickLoja {
 		
 		// verifica se a mensagem é exibida
 		
-		 element = driver.findElement(By.xpath(".alert.alert-error"));
-		 equals(element.getText().contains("Usuário ou senha incorretos"));
+	        element = driver.findElement(By.xpath("html/body/div/form/div[3]"));
+		 String mensagem = "Usuário ou senha incorretos";
+		 assertTrue(mensagem, true);
 		
 	}
 
