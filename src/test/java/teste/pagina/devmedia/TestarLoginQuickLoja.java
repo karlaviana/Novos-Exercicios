@@ -1,4 +1,4 @@
-package teste.pagina.devmedia;
+package teste.pagina.quickloja;
 
 import static org.junit.Assert.assertEquals;
 
@@ -24,7 +24,7 @@ public class TestarLoginQuickLoja {
 
 	@After
 	public void tearDown() throws Exception {
-		// fechar aplicaÁ„o
+		// fechar aplica√ß√£o
 		driver.close();
 	}
 
@@ -38,10 +38,10 @@ public class TestarLoginQuickLoja {
 		
 		
 		
-		// verifica se a mensagem È exibida
+		// verifica se a mensagem √© exibida
 		
 		 element = driver.findElement(By.xpath(".alert.alert-error"));
-		 equals(element.getText().contains("Usu·rio ou senha incorretos"));
+		 equals(element.getText().contains("Usu√°rio ou senha incorretos"));
 		
 	}
 
